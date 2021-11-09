@@ -3,7 +3,8 @@ package domain;
 import java.awt.*;
 
 public class Like {
-    private String idUser;
-    private String nameUser;
-    private Image sticker;
+    private int count;
+    private int userLikes;
+    private int canLike;
+    private int canPublish;
 }

@@ -1,9 +1,9 @@
 package domain;
 
 public class Comment {
-    private String idUser;
-    private String nameUser;
-    private String comment;
-    private InteractiveContent[] interactiveContents;
-    private Like likes;
+    private int count;
+    private int canPost;
+    private int groupsCanPost;
+    private boolean canClose;
+    private boolean canOpen;
 }
